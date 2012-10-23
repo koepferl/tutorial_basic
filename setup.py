@@ -41,8 +41,8 @@ image.set_image_limits(-1.5 * pc, 1.5 * pc, -1.5 * pc, 1.5 * pc)
 # Set runtime parameters
 m.set_n_initial_iterations(5)
 m.set_raytracing(True)
-m.set_n_photons(initial=1e6, imaging=1e7,
-                raytracing_sources=1e6, raytracing_dust=1e6)
+m.set_n_photons(initial=1e5, imaging=1e6,
+                raytracing_sources=1e5, raytracing_dust=1e5)
 
 # Write out input file
 m.write('tutorial_model.rtin')
